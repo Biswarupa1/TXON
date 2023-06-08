@@ -1,0 +1,100 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(56,56,109,0.9),rgba(0,0,0,0.2)),url(bg.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    color:#fff;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nav-links{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.nav-links li{
+    margin-Left: 20px;
+}
+.nav-links a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color:#fffdfd;
+    transition: color 0.5s ease;
+}
+.nav-links a:hover{
+    color:#080708;
+    background: transparent;
+    background-color: #e5ddee;
+    border: 1px solid rgb(216, 210, 210);
+}
+.login-button{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+    padding:8px 16px;
+    border-radius: 4px;
+    background-color: #9933ff;
+    transition: background-color 0.3s ease;
+}
+.login-button:hover{
+    background: transparent;
+    border: 1px solid rgb(216, 210, 210);
+}
+.hero-content{
+    text-align: center;
+}
+.hero-content h1{
+    color:#fff;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    color:#fff;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.hero-content .button{
+    display: inline-block;
+    padding:12px 24px;
+    background-color: #9933ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.hero-content .button:hover{
+    background: transparent;
+    border: 1px solid rgb(216, 210, 210);
+
+}
